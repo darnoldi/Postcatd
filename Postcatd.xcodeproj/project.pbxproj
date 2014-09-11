@@ -15,6 +15,7 @@
 		0F8185F319C06AAF00CA475E /* PostcatdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8185F219C06AAF00CA475E /* PostcatdTests.swift */; };
 		0F8185FF19C0749300CA475E /* Saturn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F8185FE19C0749300CA475E /* Saturn.jpg */; };
 		0F81860119C0827A00CA475E /* space stamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F81860019C0827A00CA475E /* space stamp.jpg */; };
+		0F81860319C1BCC200CA475E /* wet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F81860219C1BCC200CA475E /* wet.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		0F8185F219C06AAF00CA475E /* PostcatdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcatdTests.swift; sourceTree = "<group>"; };
 		0F8185FE19C0749300CA475E /* Saturn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Saturn.jpg; sourceTree = "<group>"; };
 		0F81860019C0827A00CA475E /* space stamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "space stamp.jpg"; sourceTree = "<group>"; };
+		0F81860219C1BCC200CA475E /* wet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wet.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		0F8185F019C06AAF00CA475E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0F81860219C1BCC200CA475E /* wet.jpg */,
 				0F8185F119C06AAF00CA475E /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -210,6 +213,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F81860319C1BCC200CA475E /* wet.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +417,7 @@
 				0F8185F819C06AAF00CA475E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F8185F919C06AAF00CA475E /* Build configuration list for PBXNativeTarget "PostcatdTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +426,7 @@
 				0F8185FB19C06AAF00CA475E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
